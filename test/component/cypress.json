@@ -1,0 +1,10 @@
+{
+    "fixturesFolder": "test/component/cypress/fixtures",
+    "integrationFolder": "test/component/cypress/spec",
+    "pluginsFile": "test/component/cypress/plugins/index.js",
+    "screenshotsFolder": "test/component/cypress/screenshots",
+    "videosFolder": "test/component/cypress/videos",
+    "downloadsFolder": "test/component/cypress/downloads",
+    "supportFile": "test/component/cypress/support/index.js"
+  }
+  

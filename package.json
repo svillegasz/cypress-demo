@@ -1,0 +1,24 @@
+{
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^8.3.0"
+  },
+  "scripts": {
+    "test:component": "cypress run --config-file test/component/cypress.json",
+    "test:open:component": "cypress open --config-file test/component/cypress.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svillegasz/cypress-demo.git"
+  },
+  "author": "sebastian.villegasz@perficient.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svillegasz/cypress-demo/issues"
+  },
+  "homepage": "https://github.com/svillegasz/cypress-demo#readme"
+}
