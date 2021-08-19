@@ -3,7 +3,9 @@
 context('Demoblaze store', () => {
   before(() => {
     cy.setCookie('tokenp_', 'Y3lwcmVzczE2Mjk5Mjg=')  
-    Cypress.Cookies.preserveOnce('tokenp_')
+    Cypress.Cookies.defaults({
+      preserve: 'tokenp_',
+    })
   })
 
   context('Dashboard', () => {
